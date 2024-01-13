@@ -225,6 +225,7 @@ blockquote {
   }
 }
 
+
 // Navbar customization
 
 .navbar {
@@ -355,9 +356,16 @@ blockquote {
   background-color: inherit;
   color: var(--global-text-color);
 
+  --highlight-color: var(--global-hover-color);
+
   &:hover {
     color: var(--global-hover-color);
   }
+}
+
+.highlight-author {
+  color: var(--highlight-color);
+  /* Add any additional styling for the highlighted author here */
 }
 
 // Social (bottom)
@@ -411,25 +419,27 @@ blockquote {
   transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px){
   .wechat-modal > img {
     width: 100%;
   }
 }
 
+
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  border-top: 1px solid var(--global-divider-color);
+  background-color: var(--global-bg-color);
+  font-size: 0.7rem;
 
   .container {
-    color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    color: var(--global-text-color);
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
 
   a {
-    color: var(--global-footer-link-color);
+    color: var(--global-link-color);
 
     &:hover {
       color: var(--global-theme-color);
@@ -451,6 +461,7 @@ footer.sticky-bottom {
   margin-bottom: 40px;
 
   .card {
+    max-width: 1600px;
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
 
@@ -579,6 +590,7 @@ footer.sticky-bottom {
   }
 }
 
+
 // Distill
 
 .distill {
@@ -587,6 +599,7 @@ footer.sticky-bottom {
     text-decoration: none;
   }
 }
+
 
 // Projects
 
@@ -632,6 +645,7 @@ footer.sticky-bottom {
     text-align: right;
   }
 }
+
 
 // Publications
 
@@ -834,6 +848,7 @@ code {
   border-radius: 3px;
   padding: 3px 3px;
 }
+
 
 // Transitioning Themes
 html.transition,

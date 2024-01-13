@@ -1,84 +1,54 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@InProceedings{Delitzas_2023_BMVC,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+	author={Delitzas, Alexandros and Parelli, Maria and Hars, Nikolas and Vlassis, Georgios and Anagnostidis, Sotirios and Bachmann, Gregor and Hofmann, Thomas},
+	title={{Multi-CLIP: Contrastive Vision-Language Pre-training for Question Answering tasks in 3D Scenes}},
+	booktitle={{34th British Machine Vision Conference (BMVC)}},
+	month=	{November},
+	year=	{2023},
+  html={https://doi.org/10.48550/arXiv.2306.02329},
+  url={https://doi.org/10.48550/arXiv.2306.02329},
+  doi={10.48550/arXiv.2306.02329},
+  selected={true},
   dimensions={true},
-  selected={true}
+  preview={multi-clip_bmvc_preview.png},
+  abstract={Training models to apply common-sense linguistic knowledge and visual concepts from 2D images to 3D scene understanding is a promising direction that researchers have only recently started to explore. However, it still remains understudied whether 2D distilled knowledge can provide useful representations for downstream 3D vision-language tasks such as 3D question answering. In this paper, we propose a novel 3D pre-training Vision-Language method, namely Multi-CLIP, that enables a model to learn language-grounded and transferable 3D scene point cloud representations. We leverage the representational power of the CLIP model by maximizing the agreement between the encoded 3D scene features and the corresponding 2D multi-view image and text embeddings in the CLIP space via a contrastive objective. To validate our approach, we consider the challenging downstream tasks of 3D Visual Question Answering (3D-VQA) and 3D Situated Question Answering (3D-SQA). To this end, we develop novel multi-modal transformer-based architectures and we demonstrate how our pre-training method can benefit their performance. Quantitative and qualitative experimental results show that Multi-CLIP outperforms state-of-the-art works across the downstream tasks of 3D-VQA and 3D-SQA and leads to a well-structured 3D scene feature space.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@InProceedings{Parelli_2023_CVPR,
+    bibtex_show={true},
+    author    = {Parelli, Maria and Delitzas, Alexandros and Hars, Nikolas and Vlassis, Georgios and Anagnostidis, Sotirios and Bachmann, Gregor and Hofmann, Thomas},
+    title     = {{CLIP-Guided Vision-Language Pre-Training for Question Answering in 3D Scenes}},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {5607-5612},
+    url={https://doi.org/10.1109/CVPRW59228.2023.00593},
+    dimensions={true},
+    selected={true},
+    preview={clip_guided_vl.png},
+    publisher={IEEE},
+    doi={10.1109/CVPRW59228.2023.00593},
+    html={https://doi.org/10.1109/CVPRW59228.2023.00593},
+    abstract={Training models to apply linguistic knowledge and visual concepts from 2D images to 3D world understanding is a promising direction that researchers have only recently started to explore. In this work, we design a novel 3D pre-training Vision-Language method that helps a model learn semantically meaningful and transferable 3D scene point cloud representations. We inject the representational power of the popular CLIP model into our 3D encoder by aligning the encoded 3D scene features with the corresponding 2D image and text embeddings produced by CLIP. To assess our model’s 3D world reasoning capability, we evaluate it on the downstream task of 3D Visual Question Answering. Experimental quantitative and qualitative results show that our pre-training method outperforms state-of-the-art works in this task and leads to an interpretable representation of 3D scene features.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@misc{feldmann_2024_nerfmentation,
+      bibtex_show={true},
+      title={{NeRFmentation: NeRF-based Augmentation for Monocular Depth Estimation}}, 
+      author={Casimir Feldmann and Niall Siegenheim and Nikolas Hars and Lovro Rabuzin and Mert Ertugrul and Luca Wolfart and Marc Pollefeys and Zuria Bauer and Martin R. Oswald},
+      year={2024},
+      eprint={2401.03771},
+      archivePrefix={arXiv},
+      doi={10.48550/arXiv.2401.03771},
+      primaryClass={cs.CV},
+      url={https://doi.org/10.48550/arXiv.2401.03771},
+      html={https://doi.org/10.48550/arXiv.2401.03771},
+      dimensions={true},
+      selected={true},
+      preview={nerfmentation_preview_padded.png},
+      video={https://www.youtube.com/watch?v=ICOT_zkTqmI&t=12s},
+      abstract={The capabilities of monocular depth estimation (MDE) models are limited by the availability of sufficient and diverse datasets. In the case of MDE models for autonomous driving, this issue is exacerbated by the linearity of the captured data trajectories. We propose a NeRF-based data augmentation pipeline to introduce synthetic data with more diverse viewing directions into training datasets and demonstrate the benefits of our approach to model performance and robustness. Our data augmentation pipeline, which we call "NeRFmentation", trains NeRFs on each scene in the dataset, filters out subpar NeRFs based on relevant metrics, and uses them to generate synthetic RGB-D images captured from new viewing directions. In this work, we apply our technique in conjunction with three state-of-the-art MDE architectures on the popular autonomous driving dataset KITTI, augmenting its training set of the Eigen split. We evaluate the resulting performance gain on the original test set, a separate popular driving set, and our own synthetic test set.}
 }

@@ -2,25 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: M.Sc. student @ <a href='https://ethz.ch/en.html'>ETH Zurich</a> in <a href='https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/electrical-engineering-and-information-technology.html'>Electrical Engineering Information Technology</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_picture.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
----
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
+--- 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello there! I'm a Master's student at [ETH Zurich](https://ethz.ch/en.html) in Electrical Engineering and Information Technology with **strong software development background**, deeply passionate about `Computer Vision` and `Deep Learning`, specifically focused on enhancing perception and understanding for autonomous vehicles.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my research journey, I've gained hands-on expertise in `Multiple-Object Tracking`, `Object Detection`, [Monocular Depth Estimation](https://doi.org/10.48550/arXiv.2401.03771), and worked on innovative projects involving generalizable Signed Distance Function (SDF) networks, Neural Radiance Fields (NeRFs), and stepped into the realm of Reinforcement Learning (RL). I've also explored the exciting intersection of Computer Vision and Natural Language Processing (NLP) using models like [CLIP](https://doi.org/10.48550/arXiv.2306.02329).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I'm doing a full-time internship at [Aegis Rider](https://aegisrider.com/), where we utilize `Augmented Reality (AR)` and cutting-edge technologies to increase safety for motorcycle riders through innovative solutions.
+
+Beyond academia and work, I find joy in cycling, bouldering, and collaborative cooking evenings with friends, where I take pleasure in exploring diverse recipes from various cultures.
