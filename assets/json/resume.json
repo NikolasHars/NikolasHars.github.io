@@ -64,24 +64,7 @@
   "certificates": [],
   "publications": [],
   "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "C1"
-    },
-    {
-      "language": "Italian",
-      "fluency": "B1"
-    },
-    {
-      "language": "French",
-      "fluency": "B1"
-    }
-  ],
+  "languages": [],
   "interests": [],
   "references": [],
   "projects": []
